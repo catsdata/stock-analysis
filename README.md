@@ -10,7 +10,7 @@ As we initially saw, "DQ" may have been a great choice upon his parents initial 
 
 The workbook can be accessed [HERE](https://github.com/catsdata/stock-analysis/blob/main/VBA_Challenge/VBA_Challenge.xlsm)
 
-The initial VBA code, however, was a little redundant and could be improved upon.  Therefore, the time was taken to refactor the code to reduce processing resources and time.  By doing so, we successfully sped up the processing time by 80%.   Nested loops were improved upon.  The 2017 data run times went from 1.078 seconds to 0.172 seconds, and the 2018 data run times dropped from 1.035 seconds to 0.215 seconds.  Imagine how much time and resrouces that will save for future and/or expanded datasets!
+The initial VBA code, however, was a little redundant and could be improved upon.  Therefore, the time was taken to refactor the code to reduce processing resources and time.  By doing so, we successfully sped up the processing time by 80%.   Nested loops were improved upon.  The 2017 data run times went from 1.078 seconds to 0.172 seconds, and the 2018 data run times dropped from 1.035 seconds to 0.215 seconds.  Imagine how much time and resources that will save for future and/or expanded datasets!
 
 Original Run Times
 
@@ -26,20 +26,12 @@ Refactored Run Times
 ## Summary
 ### Why Refactor?
 
-Refactoring code, of any type, can improve overall efficencies.  Just as writing the VBA code initially was to improve processing time on analyzing the stock data manually in Excel.  By making it more efficient, and ensuring comments are added to explain how the code it working, its easier to reuse in the future and make more accessible to other users.  Refactoring will also reduce the human error aspect provided datasets are added in the same format and the least amount of interaction is required.  Initial up front time investment ultimately reduces the overall cost of labor and effort in the long run.  And good code can be shared and reused or tweaked for other projects as well.
+Refactoring code, of any type, can improve overall efficiencies.  Just as writing the VBA code initially was to improve processing time on analyzing the stock data manually in Excel.  By making it more efficient, and ensuring comments are added to explain how the code it working, its easier to reuse in the future and make more accessible to other users.  Refactoring will also reduce the human error aspect provided datasets are added in the same format and the least amount of interaction is required.  Initial up front time investment ultimately reduces the overall cost of labor and effort in the long run.  And good code can be shared and reused or tweaked for other projects as well.
 
 However, refactoring isn't always necessary.  If the project is a one time need, there's no sense refactoring if it works, and won't be needed again.  The effort should always be weighed against the need.
 
 ### Refactoring this VBA
 
-Code for this project was refactored to reduce run times, and nest loops where able.  Although the code worked for the small set of stocks provided, it may not have been the best of code should we need to analyze stocks outside of the green energy genre.  
+Code for this project was refactored to reduce run times by nesting loops where able.  As seen above, run times substantially improved.  Although the initial code worked for the small set of stocks provided, it may not have been the best of code should we need to analyze stocks outside of the small green energy genre.  
 
-Original Run Times
-
-![2017](https://github.com/catsdata/stock-analysis/blob/main/VBA_Challenge/Resources/VBA_Challenge_2017_orig.PNG)
-![2018](https://github.com/catsdata/stock-analysis/blob/main/VBA_Challenge/Resources/VBA_Challenge_2018_orig.PNG)
-
-Refactored Run Times
-
-![2017](https://github.com/catsdata/stock-analysis/blob/main/VBA_Challenge/Resources/VBA_Challenge_2017.PNG)
-![2018](https://github.com/catsdata/stock-analysis/blob/main/VBA_Challenge/Resources/VBA_Challenge_2018.PNG)
+Refactoring this code took over 10 hours even with intitial guidance provided.  I would say this would have been a con if the process of debugging and code research didn't improve upon my understanding of how the code works and where I was having issues.  So in the long run, this not only improved run times for Steve and his parents, it made me a better programmer.  
